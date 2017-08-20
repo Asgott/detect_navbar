@@ -3,28 +3,28 @@
 	<meta charset="UTF-8">
 	<title>Detect_navbar</title>
 	<link rel="stylesheet" href="main.css">
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
 	<script src="main.js"></script>
 </head>
 <body>
-	<section id="item-1"></section>
-	<section id="item-2"></section>
-	<section id="item-3"></section>
+
+	<div id="navbar-section">
+		<section id="item-1"></section>
+		<section id="item-2"></section>
+		<section id="item-3"></section>
 
 
-	<nav>
-	  <li id="sectnav-1"><div class="bar"></div>01</li>
-	  <li id="sectnav-2"><div class="bar"></div>02</li>
-	  <li id="sectnav-3"><div class="bar"></div>03</li>
-	</nav>
+		<nav id="navbar" class="fixed-nav">
+			<li id="sectnav-1"><div class="bar"></div><div class="number">01</div> <div class="label">Text1</div></li>
+			<li id="sectnav-2"><div class="bar"></div><div class="number">02</div> <div class="label">Text2</div></li>
+			<li id="sectnav-3"><div class="bar"></div><div class="number">03</div> <div class="label">Text3</div></li>
+		</nav>
 
-
-
-
-
+		<div id="end"></div>
+	</div>
 
 </body>
 </html>
